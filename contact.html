@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Maddie's Mark Foundation</title>
+    <meta name="description" content="Get in touch with us for nominations, ideas, or support.">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Roboto:wght@400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://js.hcaptcha.com/1/api.js" async defer></script>
+</head>
+<body>
+    <header>
+        <nav class="sticky-nav">
+            <div class="logo">Maddie's Mark Foundation</div>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="donate.html">Donate</a></li>
+                <li><a href="elephants.html">Maddie's Elephants</a></li>
+                <li><a href="best-days.html">Best Days Ever</a></li>
+                <li><a href="enrichment.html">Child Enrichment</a></li>
+                <li><a href="scholarships.html">Scholarships</a></li>
+                <li><a href="connect.html">Connect</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="contact-section">
+            <h1>Contact Us</h1>
+            <p>Reach out for program access, nominations, or to share your story. We're here for families in need.</p>
+            <form id="contact-form">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+                <div class="h-captcha" data-sitekey="your-hcaptcha-sitekey-here"></div> <!-- Register at hcaptcha.com for sitekey -->
+                <button type="submit">Send</button>
+            </form>
+            <div id="form-message"></div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 Maddie's Mark Foundation. All rights reserved.</p>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="donate.html">Donate</a></li>
+            <li><a href="elephants.html">Maddie's Elephants</a></li>
+            <li><a href="best-days.html">Best Days Ever</a></li>
+            <li><a href="enrichment.html">Child Enrichment</a></li>
+            <li><a href="scholarships.html">Scholarships</a></li>
+            <li><a href="connect.html">Connect</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
